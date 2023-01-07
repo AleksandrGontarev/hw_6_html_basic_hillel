@@ -1,6 +1,6 @@
 # Виконати верстку макету
 
-![template_3.png](./img/template_3.png)
+![template_3.png](./img/templates_3.jpg)
 
 
 
