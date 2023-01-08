@@ -1,11 +1,61 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
-body. {
-
+clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
-container. {
-    
+.body {
+    font-family: 'Tahoma', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding-top: 71px;
+    padding-bottom: 73px;
+}
+
+.head-menu {
+    height: 38px;
+}
+
+.logo {
+    width: 85px;
+    height: 38px;
+    float: left;
+}
+
+.menu {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    float: right;
+    text-align: left;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    padding-left: 41px;
+    color: #000000;
+}
+
+
+.menu a:hover,
+a:focus {
+    color: #34547A;
 }
