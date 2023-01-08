@@ -1,11 +1,203 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
-body. {
+clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.body {
+    font-family: 'Tahoma', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding-top: 71px;
+    padding-bottom: 73px;
+}
+
+.head-menu {
+    height: 38px;
+}
+
+.logo {
+    width: 85px;
+    height: 38px;
+    float: left;
+}
+
+.menu {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    float: right;
+    text-align: left;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    padding-left: 41px;
+    color: #000000;
+}
+
+.menu a:hover,
+a:focus {
+    color: #34547A;
+}
+
+.design {
+    padding-top: 76px;
+    padding-bottom: 146px;
+}
+
+.design-head {
+    height: 297px;
+}
+
+.design-image {
+    width: 567px;
+    float: left;
+    padding-top: 21px;
+    padding-bottom: 41px;
+    padding-left: 16px;
+}
+
+
+h2::first-letter {
+    text-transform: uppercase;
+}
+
+.design-title {
+    text-decoration: none;
+    width: 542px;
+    float: right;
+}
+
+.design-layout {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+}
+
+.design-title p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-top: 50px;
+    padding-bottom: 54px;
 
 }
 
-container. {
-    
+.upper {
+    text-transform: capitalize;
+}
+
+.bottom {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #34547A;
+    padding: 25px 41px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.how-i-work {
+    padding-top: 46px;
+    padding-bottom: 100px;
+    background-color: #EEEFF1;
+}
+
+.how {
+    width: 540px;
+}
+
+.how-title {
+    padding-bottom: 57px;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.how-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.how-head {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #000000;
+}
+
+.block-img {
+    padding-top: 141px;
+    padding-bottom: 116px;
+}
+
+.some-img {
+    width: 1110px;
+    height: 728px;
+}
+
+.some-img img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 28px;
+}
+
+.mr-0 img {
+    margin-right: 0;
+}
+
+.footer {
+    height: 126px;
+    background-color: #34547A;
+}
+
+.footer-text {
+    padding-top: 39px;
+    padding-bottom: 38px;
+    float: left;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    padding-top: 35px;
+    padding-bottom: 31px;
+    float: right;
+}
+
+.you-tube img {
+    padding-left: 32px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: capitalize;
+    padding-bottom: 18px;
 }
