@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-clearfix::after {
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
@@ -13,7 +13,6 @@ clearfix::after {
     font-family: 'Tahoma', sans-serif;
     font-style: normal;
     font-weight: normal;
-    margin: 0 auto;
 }
 
 .container {
@@ -25,10 +24,6 @@ clearfix::after {
     background-color: #EEEFF1;
     padding-top: 71px;
     padding-bottom: 73px;
-}
-
-.head-menu {
-    height: 38px;
 }
 
 .logo {
@@ -62,10 +57,6 @@ a:focus {
 .design {
     padding-top: 76px;
     padding-bottom: 146px;
-}
-
-.design-head {
-    height: 297px;
 }
 
 .design-image {
@@ -155,11 +146,6 @@ h2::first-letter {
 .block-img {
     padding-top: 141px;
     padding-bottom: 116px;
-}
-
-.some-img {
-    width: 1110px;
-    height: 728px;
 }
 
 .some-img img {
